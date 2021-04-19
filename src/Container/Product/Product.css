@@ -1,0 +1,117 @@
+.header {
+    background: rgb(169, 226, 252);
+    display: flex;
+    width: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}    
+
+.logo{
+    width: auto;
+    height: 60px;
+}
+
+.logo img{
+    width: auto;
+    height: 60px;
+}
+
+.troley{
+    width: 30px;
+}
+
+.troley img{
+    width: 40px;
+}
+
+.count{
+    background: rgb(1, 56, 58);
+    padding: 10px;
+    border-radius: 50%;
+    min-width: 10px;
+    height: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 75px;
+    right: 25px;
+}
+
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    width: 320px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    background-color: rgb(213, 238, 248);
+    text-align: center;
+    
+}
+
+p{
+    margin: 0;
+    position: relative;
+    color: rgb(36, 36, 36);
+}
+
+.product-title{
+    margin-top: 20px;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.product-price{
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: rgb(38, 202, 73);
+    font-family: 'fantasy';
+    font-weight: bold;
+}
+
+.stock{
+    font-size: 12px;
+    color: rgb(214, 36, 36);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.counter{
+    background-color: rgb(213, 238, 248);
+    text-align: center;
+}
+
+.minus{
+    background: rgb(213, 238, 248);
+    border-color: rgb(10, 56, 75);;
+    border-radius: 5px;
+    min-width: 5%;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+}
+
+.input{
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.plus{
+    background: rgb(213, 238, 248);
+    border-color: rgb(10, 56, 75);;
+    border-radius: 5px;
+    min-width: 5%;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+}
