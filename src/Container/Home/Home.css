@@ -1,0 +1,13 @@
+.nav {
+    background: rgba(102, 184, 204, 0.815);
+    padding: 30px;
+}
+
+.nav a {
+    padding: 10px 40px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background: rgb(144, 224, 220);
+    border-radius: 4px;
+}

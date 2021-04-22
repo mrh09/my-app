@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import Post from '../../Component/Post/Post';
+import Post from '../../../Component/Post/Post';
 import './BlogPost.css' ;
 import axios from 'axios';
 
@@ -94,6 +94,10 @@ class BlogPost extends Component {
         }
     }
 
+    handleDetail = (id) => {
+        this.props.history.push('detail-post/' + id)
+    }
+
     componentDidMount(){
         this.getPostAPI();
     }
@@ -112,7 +116,7 @@ class BlogPost extends Component {
                 {
                     this.state.post.map(post => {
                         return <Post key={post.id} data={post}
-                        remove={this.handleRemove} edit={this.handleEdit}/>
+                        remove={this.handleRemove} edit={this.handleEdit} detail={this.handleDetail}/>
                     })
                 }
             </Fragment>

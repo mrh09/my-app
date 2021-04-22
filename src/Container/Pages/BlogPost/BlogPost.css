@@ -16,13 +16,13 @@
     margin-left: 20px;
 }
 
-.img-thumb {
+.img-thumbn {
     width: 200px;
     height: 150px;
     margin-right: 20px;
 }
 
-.img-thumb img {
+.img-thumbn img {
     width: 200px;
     height: 150px;
     object-fit: cover;
@@ -68,6 +68,10 @@ button.edit {
 }
 
 .remove:hover, .edit:hover {
+    cursor: pointer;
+}
+
+.content p.title:hover {
     cursor: pointer;
 }
 
